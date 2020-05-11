@@ -1,0 +1,1 @@
+enum Counter2Event { increment, decrement }
