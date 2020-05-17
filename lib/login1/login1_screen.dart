@@ -5,8 +5,8 @@ import 'package:flutterblocsample/login1/event/login1_event.dart';
 import 'package:flutterblocsample/login1/state/login1_state.dart';
 import 'package:flutterblocsample/widgets.dart';
 
-class LoginScreen extends StatelessWidget {
-  static const String routeName = "LoginScreen";
+class Login1Screen extends StatelessWidget {
+  static const String routeName = "Login1Screen";
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
 

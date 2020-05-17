@@ -4,7 +4,8 @@ import 'package:flutterblocsample/counter1/counter1_screen.dart';
 import 'package:flutterblocsample/counter2/bloc/counter2_bloc.dart';
 import 'package:flutterblocsample/counter2/counter2_screen.dart';
 import 'package:flutterblocsample/home_screen.dart';
-import 'package:flutterblocsample/login1/login_screen.dart';
+import 'package:flutterblocsample/login1/login1_screen.dart';
+import 'package:flutterblocsample/login2/login2_screen.dart';
 
 void main() {
   runApp(App());
@@ -24,7 +25,8 @@ class App extends StatelessWidget {
           HomeScreen.routeName : (context) => HomeScreen(),
           Counter1Screen.routeName : (context) => Counter1Screen(),
           Counter2Screen.routeName : (context) => Counter2Screen(),
-          LoginScreen.routeName : (context) => LoginScreen(),
+          Login1Screen.routeName : (context) => Login1Screen(),
+          Login2Screen.routeName : (context) => Login2Screen(),
         },
       ),
     );
